@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "Moya-RxSwift-ObjectMapper", targets: ["Moya-RxSwift-ObjectMapper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Moya/Moya.git", exact: "14.0.0-beta.6"),
+        .package(url: "https://github.com/Moya/Moya.git", exact: "14.0.0"),
         .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", .upToNextMajor(from: "3.4.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0"))
     ],
